@@ -1,0 +1,19 @@
+<resources>
+    <!--    Activity Principal-->
+    <string name="app_name">SIS104Menu</string>
+    <string name="button_Ejercicios">EJERCICIOS</string>
+    <string name="button_Examenes">EXAMENES</string>
+    <string name="button_BaseDatos">BASE DE DATOS</string>
+    <string name="button_Graficos">GRAFICOS</string>
+    <string name="button_Salir">SALIR</string>
+
+
+    <!--    Activity Examenes-->
+    <string name="button_PrimerParcial">1er PARCIAL</string>
+    <string name="button_SegundoParcial">2do PARCIAL</string>
+    <string name="button_ExamenFinal">EXAMEN FINAL</string>
+
+    <!--    Activity Ejercicios-->
+    <string name="button_Ecuacion2doGrado">ECUACION DE 2do. GRADO</string>
+    <string name="button_Solucion">VER SOLUCION</string>
+</resources>
