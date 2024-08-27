@@ -13,7 +13,16 @@
     <string name="button_SegundoParcial">2do PARCIAL</string>
     <string name="button_ExamenFinal">EXAMEN FINAL</string>
 
+    <!--    ESTADISTICAS -->
+    <string name="button_Estadistica">ESTADISTICA</string>
+    <string name="textView_TituloEstadistica">ESTADISTICA</string>
+
     <!--    Activity Ejercicios-->
     <string name="button_Ecuacion2doGrado">ECUACION DE 2do. GRADO</string>
     <string name="button_Solucion">VER SOLUCION</string>
+
+
+    <!--    ACTIVITY GRAFICOS-->
+    <string name="button_Graficos2d">GRAFICOS 2D</string>
+    <string name="button_GraficosFractal">FRACTAL</string>
 </resources>

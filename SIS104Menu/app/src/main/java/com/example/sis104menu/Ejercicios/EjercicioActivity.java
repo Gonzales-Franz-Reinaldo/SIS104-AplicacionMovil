@@ -14,7 +14,7 @@ import androidx.core.view.WindowInsetsCompat;
 import com.example.sis104menu.R;
 
 public class EjercicioActivity extends AppCompatActivity {
-    Button button_Ecuacion, button_Salir;
+    Button button_Ecuacion, button_Salir, button_Estadistica;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,6 +29,7 @@ public class EjercicioActivity extends AppCompatActivity {
 
         button_Ecuacion = findViewById(R.id.button_Ecuacion2doGrado);
         button_Salir = findViewById(R.id.button_SalirEjercicio);
+        button_Estadistica = findViewById(R.id.button_Estadistica);
 
 
         button_Ecuacion.setOnClickListener(new View.OnClickListener() {
@@ -43,6 +44,14 @@ public class EjercicioActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 finish();
+            }
+        });
+
+        button_Estadistica.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(EjercicioActivity.this, EstadisticaActivity.class);
+                startActivity(intent);
             }
         });
     }

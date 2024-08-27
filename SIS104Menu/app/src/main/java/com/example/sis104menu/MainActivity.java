@@ -13,6 +13,7 @@ import androidx.core.view.WindowInsetsCompat;
 
 import com.example.sis104menu.Ejercicios.EjercicioActivity;
 import com.example.sis104menu.Examenes.ExamenActivity;
+import com.example.sis104menu.Graficos.GraficoActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,8 +34,9 @@ public class MainActivity extends AppCompatActivity {
         button_Ejercicio = findViewById(R.id.button_Ejercicios);
         button_Examen = findViewById(R.id.button_Examenes);
         button_BaseDatos = findViewById(R.id.button_BaseDatos);
-        button_BaseDatos = findViewById(R.id.button_Graficos);
+        button_Graficos = findViewById(R.id.button_Graficos);
         button_Salir = findViewById(R.id.button_Salir);
+
 
         button_Ejercicio.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -56,6 +58,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 finish();
+            }
+        });
+
+
+        button_Graficos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, GraficoActivity.class);
+                startActivity(intent);
             }
         });
     }

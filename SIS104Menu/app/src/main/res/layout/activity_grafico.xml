@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Graficos.GraficoActivity">
+
+    <Button
+        android:id="@+id/button_Graficos2d"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/button_Graficos2d" />
+
+    <Button
+        android:id="@+id/button_GraficosFractal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/button_GraficosFractal" />
+
+
+
+<!--    PARTE DE LABORATORIO-->
+    <Button
+        android:id="@+id/button_GraficaDado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="GRAFICA DADOS" />
+
+    <Button
+        android:id="@+id/button_LineaGrafico"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="GRAFICA LINEA GRAFICO" />
+
+    <Button
+        android:id="@+id/button_GraficaTorta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="GRAFICA TORTA" />
+
+
+<!--    OPCION DE SALIDA-->
+    <Button
+        android:id="@+id/button_GraficosSalir"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="@string/button_Salir" />
+
+</LinearLayout>

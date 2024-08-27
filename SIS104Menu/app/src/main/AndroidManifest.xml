@@ -13,6 +13,24 @@
         android:theme="@style/Theme.SIS104Menu"
         tools:targetApi="31">
         <activity
+            android:name=".Graficos.LAB_01.GraficaTortaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Graficos.LAB_01.LineaGraficaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Graficos.LAB_01.DadosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Graficos.Grafico2dActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Graficos.GraficoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ejercicios.EstadisticaActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

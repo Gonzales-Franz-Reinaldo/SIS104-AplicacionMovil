@@ -16,6 +16,12 @@
         android:text="@string/button_Ecuacion2doGrado" />
 
     <Button
+        android:id="@+id/button_Estadistica"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_Estadistica" />
+
+    <Button
         android:id="@+id/button_SalirEjercicio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
