@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">ProyectoKotlin</string>
+    <string name="menu_basedatos">BASE DE DATOS</string>
+    <string name="menu_ejercicios">EJERCICIOS</string>
+    <string name="menu_Examen">EXAMEN</string>
+    <string name="menu_grafcios">GRAFICOS</string>
+    <string name="menu_salir">SALIR</string>
+
+    <string name="menu_ecuacion">ECUACION DE SEGUNDO GRADO</string>
+    <string name="menu_complejos">COMPLEJOS</string>
+</resources>

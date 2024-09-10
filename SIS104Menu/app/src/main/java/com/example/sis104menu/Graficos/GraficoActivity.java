@@ -87,11 +87,6 @@ public class GraficoActivity extends AppCompatActivity {
 
 
 
-
-
-
-
-
         button_SalirGrafico.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

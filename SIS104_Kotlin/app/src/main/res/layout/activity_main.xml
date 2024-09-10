@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/buttonBaseDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BASE DATOS" />
+
+    <Button
+        android:id="@+id/buttonEjercicios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EJERCICIOS" />
+
+    <Button
+        android:id="@+id/buttonExamen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="EXAMEN" />
+
+    <Button
+        android:id="@+id/buttonGraficos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GRAFICOS" />
+
+    <Button
+        android:id="@+id/button_Salir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SALIR" />
+</LinearLayout>

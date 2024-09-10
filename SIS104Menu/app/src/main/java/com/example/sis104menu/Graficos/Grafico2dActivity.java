@@ -16,6 +16,8 @@ public class Grafico2dActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
+//        setContentView(new Koch(Grafico2dActivity.this));
+        setContentView(new Cantor(Grafico2dActivity.this));
         /*
         setContentView(R.layout.activity_grafico2d);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
@@ -26,6 +28,6 @@ public class Grafico2dActivity extends AppCompatActivity {
         */
 
 
-        setContentView(new Grafico2d(Grafico2dActivity.this));
+//        setContentView(new Grafico2d(Grafico2dActivity.this));
     }
 }

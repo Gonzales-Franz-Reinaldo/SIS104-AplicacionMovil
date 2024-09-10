@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".graficos.GraficosActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GRAFICOS DE FRACTALES" />
+
+    <Button
+        android:id="@+id/buttonGrafico2D"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GRAFICOS 2D" />
+
+    <Button
+        android:id="@+id/buttonFractalTrianguloSierpinski"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FRACTAL Triángulo Sierpinski" />
+
+    <Button
+        android:id="@+id/buttonFractalBarsley"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FRACTAL BARNSLEY" />
+
+    <Button
+        android:id="@+id/button_SalirFractal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SALIR" />
+</LinearLayout>
