@@ -50,9 +50,9 @@ public class Ecuacion {
                 Double x2 = (-this.b - Math.sqrt(D())/(2 * this.a));
                 solucion = "X1 = "+x1+"\n x2 = "+x2;
             }else {
-                Double parteReak = -this.b/(2*this.a);
+                Double parteReal = -this.b/(2*this.a);
                 Double parteImag = Math.sqrt(Math.abs(D()))/(2*this.a);
-                solucion = "x1=" + parteReak+ "-"+parteImag + "\n x2 = "+parteReak+ "+" + parteImag + "i";
+                solucion = "x1=" + parteReal+ "-"+parteImag + "\n x2 = "+parteReal+ "+" + parteImag + "i";
             }
         }
 

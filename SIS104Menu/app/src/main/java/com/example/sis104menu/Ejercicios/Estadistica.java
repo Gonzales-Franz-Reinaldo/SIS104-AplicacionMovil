@@ -48,27 +48,6 @@ public class Estadistica {
         return cad.toString();
     }
 
-
-
-
-//    public String Grafico() {
-//        StringBuilder cad = new StringBuilder();
-//
-//        int maximo = Math.max(Math.max(this.a, this.b), this.c);
-//
-//
-//        int a = Math.max(1, (int) Math.round((this.a * 60.0) / maximo));
-//
-//        int b = Math.max(1, (int) Math.round((this.b * 60.0) / maximo));
-//        int c = Math.max(1, (int) Math.round((this.c * 60.0) / maximo));
-//
-//        cad.append(barra(a)).append("\n");
-//        cad.append(barra(b)).append("\n");
-//        cad.append(barra(c)).append("\n");
-//
-//        return cad.toString();
-//    }
-
     public String Grafico() {
         StringBuilder cad = new StringBuilder();
 
@@ -119,44 +98,5 @@ public class Estadistica {
 
         return cad.toString();
     }
-
-
-    //    private  String barra(int n){
-//        String cad = "";
-//        for(int i=0; i<n; i++){
-//            cad+="*";
-//        }
-//        return cad;
-//    }
-
-//    public  String Grafico(){
-//        String cad = "";
-//
-//        cad += barra(this.a)+"\n";
-//        cad += barra(this.b)+"\n";
-//        cad += barra(this.c)+"\n";
-//
-//        return cad;
-//    }
-
-
-    //    public String Grafico() {
-//        StringBuilder cad = new StringBuilder();
-//
-//        int maximo = Math.max(Math.max(this.a, this.b), this.c);
-//
-//
-//        int a = Math.max(1, (int) Math.round((this.a * 60.0) / maximo));
-//
-//        int b = Math.max(1, (int) Math.round((this.b * 60.0) / maximo));
-//        int c = Math.max(1, (int) Math.round((this.c * 60.0) / maximo));
-//
-//        cad.append(barra(a)).append("\n");
-//        cad.append(barra(b)).append("\n");
-//        cad.append(barra(c)).append("\n");
-//
-//        return cad.toString();
-//    }
-
 
 }

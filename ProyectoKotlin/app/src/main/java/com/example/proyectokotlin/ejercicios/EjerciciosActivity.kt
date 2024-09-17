@@ -22,6 +22,8 @@ class EjerciciosActivity : AppCompatActivity() {
         val buttonEcuacion = findViewById<Button>(R.id.buttonEcuacion)
         val buttonComplejos = findViewById<Button>(R.id.buttonComplejos)
         val buttonSalirEjercicio = findViewById<Button>(R.id.salirEjercicios)
+
+
         buttonComplejos.setOnClickListener{
             val intent = Intent(this@EjerciciosActivity, ComplejoActivity::class.java)
             startActivity(intent)
