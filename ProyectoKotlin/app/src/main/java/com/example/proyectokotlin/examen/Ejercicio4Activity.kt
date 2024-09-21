@@ -38,7 +38,7 @@ class Ejercicio4Activity : AppCompatActivity() {
             if (textoIngresado == textoCorregido) {
                 // El texto ya está correctamente capitalizado
                 label1.text = textoIngresado
-                label2.text = textoIngresado
+                label2.text = "Correcto"
             } else {
                 // El texto no está capitalizado correctamente
                 label1.text = "Corregido: $textoCorregido"

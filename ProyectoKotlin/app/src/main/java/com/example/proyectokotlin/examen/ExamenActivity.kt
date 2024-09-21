@@ -41,8 +41,10 @@ class ExamenActivity : AppCompatActivity() {
 
         buttonExamen3.setOnClickListener {
             // Tamaño deseado (por ejemplo, 10000, pero será ajustado si es mayor que la pantalla)
-            val triangleSize = 10000f
-            setContentView(TrianguloView(this, triangleSize))
+//            val triangleSize = 10000f
+//            setContentView(TrianguloView(this, triangleSize))
+            val intent = Intent(this@ExamenActivity, Ejercicio3Activity::class.java)
+            startActivity(intent)
         }
 
 

@@ -9,7 +9,7 @@ import android.view.View
 
 class TrianguloView @JvmOverloads constructor(
     context: Context,
-    private var size: Float, // Tamaño introducido
+    private var size: Int, // Tamaño introducido
     attrs: AttributeSet? = null,
     defStyleAttr: Int = 0
 ) : View(context, attrs, defStyleAttr) {
@@ -30,8 +30,8 @@ class TrianguloView @JvmOverloads constructor(
         val availableHeight = height.toFloat()
 
         // Ajustar el tamaño del triángulo al tamaño máximo permitido por la pantalla
-        val maxSize = minOf(availableWidth, availableHeight)
-        size = minOf(size, maxSize) // Ajusta el tamaño si es mayor al permitido
+        val maxSize = minOf(availableWidth, availableHeight) // Comparar los tamaños en float
+        size = minOf(size.toFloat(), maxSize).toInt() // Convertir size a float y luego de vuelta a int
 
         // Definir los puntos del triángulo según el tamaño ajustado
         val halfSize = size / 2
