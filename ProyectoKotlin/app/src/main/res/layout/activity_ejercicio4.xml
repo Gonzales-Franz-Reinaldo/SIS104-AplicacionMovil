@@ -4,31 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".examen.ExamenActivity">
+    android:layout_height="match_parent"
+    tools:context=".examen.Ejercicio4Activity">
 
-    <Button
-        android:id="@+id/Ejercicio1"
+
+    <EditText
+        android:id="@+id/texto"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="EJERCICIO 1" />
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
 
     <Button
-        android:id="@+id/Ejercicio2"
+        android:id="@+id/buttonValidar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="EJERCICIO 2" />
+        android:text="MOSTRAR" />
 
-    <Button
-        android:id="@+id/Ejercicio3"
+    <TextView
+        android:id="@+id/label1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="EJERCICIO 3" />
+        android:text="" />
 
-    <Button
-        android:id="@+id/Ejercicio4"
+    <TextView
+        android:id="@+id/label2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="EJERCICIO 4" />
+        android:text="" />
 </LinearLayout>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".examen.Ejercicio1Activity">
+
+    <EditText
+        android:id="@+id/valorA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese valor A"
+        android:inputType="number"
+        android:gravity="center"/>
+
+    <EditText
+        android:id="@+id/valorB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese valor B"
+        android:inputType="number"
+        android:gravity="center"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/buttonCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular"
+        android:layout_marginTop="16dp"/>
+
+    <!-- GridLayout para los resultados -->
+    <GridLayout
+        android:id="@+id/gridResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:alignmentMode="alignMargins"
+        android:columnCount="4"
+        android:rowCount="4"
+        android:gravity="center">
+
+        <!-- Cuadritos vacíos (labels de la suma) -->
+        <!-- Cada fila tendrá 4 TextViews -->
+        <TextView
+            android:id="@+id/label1_1"
+            style="@style/Cuadrito"/>
+        <TextView
+            android:id="@+id/label1_2"
+            style="@style/Cuadrito"/>
+        <TextView
+            android:id="@+id/label1_3"
+            style="@style/Cuadrito"/>
+        <TextView
+            android:id="@+id/label1_4"
+            style="@style/Cuadrito"/>
+
+        <TextView
+            android:id="@+id/label2_1"
+            style="@style/Cuadrito"/>
+        <TextView
+            android:id="@+id/label2_2"
+            style="@style/Cuadrito"/>
+        <TextView
+            android:id="@+id/label2_3"
+            style="@style/Cuadrito"/>
+        <TextView
+            android:id="@+id/label2_4"
+            style="@style/Cuadrito"/>
+
+        <TextView
+            android:id="@+id/label3_1"
+            style="@style/Cuadrito"/>
+        <TextView
+            android:id="@+id/label3_2"
+            style="@style/Cuadrito"/>
+        <TextView
+            android:id="@+id/label3_3"
+            style="@style/Cuadrito"/>
+        <TextView
+            android:id="@+id/label3_4"
+            style="@style/Cuadrito"/>
+
+        <TextView
+            android:id="@+id/label4_1"
+            style="@style/Cuadrito"/>
+        <TextView
+            android:id="@+id/label4_2"
+            style="@style/Cuadrito"/>
+        <TextView
+            android:id="@+id/label4_3"
+            style="@style/Cuadrito"/>
+        <TextView
+            android:id="@+id/label4_4"
+            style="@style/Cuadrito"/>
+    </GridLayout>
+</LinearLayout>

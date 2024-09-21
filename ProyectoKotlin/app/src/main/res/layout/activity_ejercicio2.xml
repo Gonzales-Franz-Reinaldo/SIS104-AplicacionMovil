@@ -6,29 +6,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".examen.ExamenActivity">
+    tools:context=".examen.Ejercicio2Activity">
 
-    <Button
-        android:id="@+id/Ejercicio1"
+
+    <EditText
+        android:id="@+id/valorA"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="EJERCICIO 1" />
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
 
-    <Button
-        android:id="@+id/Ejercicio2"
+    <EditText
+        android:id="@+id/valorB"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="EJERCICIO 2" />
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
 
     <Button
-        android:id="@+id/Ejercicio3"
+        android:id="@+id/buttonCalcular"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="EJERCICIO 3" />
+        android:text="CALCULAR" />
 
-    <Button
-        android:id="@+id/Ejercicio4"
+    <TextView
+        android:id="@+id/label1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="EJERCICIO 4" />
+        android:text="" />
 </LinearLayout>
