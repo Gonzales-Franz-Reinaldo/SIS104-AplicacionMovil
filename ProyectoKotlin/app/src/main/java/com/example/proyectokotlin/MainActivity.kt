@@ -9,6 +9,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.proyectokotlin.basedatos.BaseDatosActivity
 import com.example.proyectokotlin.ejercicios.EjerciciosActivity
+import com.example.proyectokotlin.ejercicios.PersonActivity
 import com.example.proyectokotlin.examen.ExamenActivity
 import com.example.proyectokotlin.graficos.GraficosActivity
 
@@ -28,6 +29,7 @@ class MainActivity : AppCompatActivity() {
         val buttonGraficos = findViewById<Button>(R.id.buttonGraficos)
         val buttonSalir = findViewById<Button>(R.id.buttonSalir)
         val buttonExamen = findViewById<Button>(R.id.buttonExamen)
+        val buttonPerson = findViewById<Button>(R.id.buttonPerson)
 
         buttonBaseDatos.setOnClickListener{
             val intent = Intent(this@MainActivity, BaseDatosActivity::class.java)
@@ -46,6 +48,12 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this@MainActivity, ExamenActivity::class.java)
             startActivity(intent)
         }
+
+        buttonPerson.setOnClickListener{
+            val intent = Intent(this@MainActivity, PersonActivity::class.java)
+            startActivity(intent)
+        }
+
         buttonSalir.setOnClickListener{
             finish()
         }

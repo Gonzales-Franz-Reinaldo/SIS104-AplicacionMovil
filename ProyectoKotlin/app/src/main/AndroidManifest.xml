@@ -13,6 +13,15 @@
         android:theme="@style/Theme.ProyectoKotlin"
         tools:targetApi="31">
         <activity
+            android:name=".ejercicios.MultiplicacionModelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ejercicios.SumaModelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ejercicios.PersonActivity"
+            android:exported="false" />
+        <activity
             android:name=".examen.Ejercicio4Activity"
             android:exported="false" />
         <activity

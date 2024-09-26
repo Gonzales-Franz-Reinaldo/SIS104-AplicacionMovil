@@ -29,6 +29,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/menu_grafcios" />
+
+    <Button
+        android:id="@+id/buttonPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PERSON VIEW MODEL" />
+
     <Button
         android:id="@+id/buttonSalir"
         android:layout_width="match_parent"

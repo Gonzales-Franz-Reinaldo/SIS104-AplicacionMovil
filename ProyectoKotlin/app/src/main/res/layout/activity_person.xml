@@ -4,37 +4,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
-    tools:context=".ejercicios.EjerciciosActivity">
+    android:orientation="vertical"
+    tools:context=".ejercicios.PersonActivity">
 
-    <Button
-        android:id="@+id/buttonEcuacion"
+    <EditText
+        android:id="@+id/editTextName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/menu_ecuacion" />
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
 
-    <Button
-        android:id="@+id/buttonComplejos"
+    <EditText
+        android:id="@+id/editTextEmail"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/menu_complejos" />
+        android:ems="10"
+        android:inputType="text"
+        android:text="" />
 
     <Button
-        android:id="@+id/buttonSumaModel"
+        android:id="@+id/buttonPerson"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SUMA MODEL" />
+        android:text="EXECUTE" />
 
-    <Button
-        android:id="@+id/buttonMultiplicacionModel"
+    <TextView
+        android:id="@+id/textViewPerson"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="MULTIPLICACION MODEL" />
-
-    <Button
-        android:id="@+id/salirEjercicios"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/menu_salir" />
+        android:text="TextView" />
 </LinearLayout>

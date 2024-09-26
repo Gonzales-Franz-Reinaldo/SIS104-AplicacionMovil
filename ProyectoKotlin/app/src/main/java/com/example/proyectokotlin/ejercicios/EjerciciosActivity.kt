@@ -22,6 +22,8 @@ class EjerciciosActivity : AppCompatActivity() {
         val buttonEcuacion = findViewById<Button>(R.id.buttonEcuacion)
         val buttonComplejos = findViewById<Button>(R.id.buttonComplejos)
         val buttonSalirEjercicio = findViewById<Button>(R.id.salirEjercicios)
+        val buttonSumaModelo = findViewById<Button>(R.id.buttonSumaModel)
+        val buttonMultiplicacionModelo = findViewById<Button>(R.id.buttonMultiplicacionModel)
 
 
         buttonComplejos.setOnClickListener{
@@ -32,6 +34,17 @@ class EjerciciosActivity : AppCompatActivity() {
             val intent = Intent(this@EjerciciosActivity, EcuacionActivity::class.java)
             startActivity(intent)
         }
+
+        buttonSumaModelo.setOnClickListener{
+            val intent = Intent(this@EjerciciosActivity, SumaModelActivity::class.java)
+            startActivity(intent)
+        }
+
+        buttonMultiplicacionModelo.setOnClickListener{
+            val intent = Intent(this@EjerciciosActivity, MultiplicacionModelActivity::class.java)
+            startActivity(intent)
+        }
+
         buttonSalirEjercicio.setOnClickListener{
             finish()
         }
