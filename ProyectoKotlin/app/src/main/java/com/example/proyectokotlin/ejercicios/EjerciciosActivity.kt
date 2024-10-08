@@ -23,6 +23,7 @@ class EjerciciosActivity : AppCompatActivity() {
         val buttonComplejos = findViewById<Button>(R.id.buttonComplejos)
         val buttonSalirEjercicio = findViewById<Button>(R.id.salirEjercicios)
         val buttonSumaModelo = findViewById<Button>(R.id.buttonSumaModel)
+        val buttonDivisionModel = findViewById<Button>(R.id.buttonDivisionModel)
         val buttonMultiplicacionModelo = findViewById<Button>(R.id.buttonMultiplicacionModel)
 
 
@@ -40,8 +41,14 @@ class EjerciciosActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+
         buttonMultiplicacionModelo.setOnClickListener{
             val intent = Intent(this@EjerciciosActivity, MultiplicacionModelActivity::class.java)
+            startActivity(intent)
+        }
+        
+        buttonDivisionModel.setOnClickListener{
+            val intent = Intent(this@EjerciciosActivity, DivisionModelActivity::class.java)
             startActivity(intent)
         }
 
