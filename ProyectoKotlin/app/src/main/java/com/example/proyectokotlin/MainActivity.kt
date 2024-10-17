@@ -1,19 +1,25 @@
 package com.example.proyectokotlin
 
+import android.content.ClipDescription
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
+import android.widget.EditText
+import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.example.proyectokotlin.basedatos.BaseDatosActivity
+import com.example.proyectokotlin.basedatos.DBHelper
+import com.example.proyectokotlin.basedatos.Lugar
 import com.example.proyectokotlin.ejercicios.EjerciciosActivity
 import com.example.proyectokotlin.ejercicios.PersonActivity
 import com.example.proyectokotlin.examen.ExamenActivity
 import com.example.proyectokotlin.graficos.GraficosActivity
 
 class MainActivity : AppCompatActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
@@ -24,12 +30,15 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+
         val buttonBaseDatos = findViewById<Button>(R.id.buttonBaseDatos)
         val buttonEjercicios = findViewById<Button>(R.id.buttonEjercicios)
         val buttonGraficos = findViewById<Button>(R.id.buttonGraficos)
         val buttonSalir = findViewById<Button>(R.id.buttonSalir)
         val buttonExamen = findViewById<Button>(R.id.buttonExamen)
         val buttonPerson = findViewById<Button>(R.id.buttonPerson)
+
+
 
         buttonBaseDatos.setOnClickListener{
             val intent = Intent(this@MainActivity, BaseDatosActivity::class.java)
@@ -58,4 +67,6 @@ class MainActivity : AppCompatActivity() {
             finish()
         }
     }
+
+
 }
