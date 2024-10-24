@@ -10,9 +10,11 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.proyectokotlin.WebService.WebServiceActivity
 import com.example.proyectokotlin.basedatos.BaseDatosActivity
 import com.example.proyectokotlin.basedatos.DBHelper
 import com.example.proyectokotlin.basedatos.Lugar
+import com.example.proyectokotlin.basedatos.RoomActivity
 import com.example.proyectokotlin.ejercicios.EjerciciosActivity
 import com.example.proyectokotlin.ejercicios.PersonActivity
 import com.example.proyectokotlin.examen.ExamenActivity
@@ -37,6 +39,8 @@ class MainActivity : AppCompatActivity() {
         val buttonSalir = findViewById<Button>(R.id.buttonSalir)
         val buttonExamen = findViewById<Button>(R.id.buttonExamen)
         val buttonPerson = findViewById<Button>(R.id.buttonPerson)
+        val buttonBdRoom = findViewById<Button>(R.id.buttonBdRoom)
+        val buttonWebService= findViewById<Button>(R.id.buttonWebService)
 
 
 
@@ -60,6 +64,16 @@ class MainActivity : AppCompatActivity() {
 
         buttonPerson.setOnClickListener{
             val intent = Intent(this@MainActivity, PersonActivity::class.java)
+            startActivity(intent)
+        }
+
+        buttonBdRoom.setOnClickListener{
+            val intent = Intent(this@MainActivity, RoomActivity::class.java)
+            startActivity(intent)
+        }
+
+        buttonWebService.setOnClickListener{
+            val intent = Intent(this@MainActivity, WebServiceActivity::class.java)
             startActivity(intent)
         }
 

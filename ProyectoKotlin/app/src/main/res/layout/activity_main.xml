@@ -37,6 +37,18 @@
         android:text="PERSON VIEW MODEL" />
 
     <Button
+        android:id="@+id/buttonBdRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="BD ROOM" />
+
+    <Button
+        android:id="@+id/buttonWebService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WEW SERVICE" />
+
+    <Button
         android:id="@+id/buttonSalir"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

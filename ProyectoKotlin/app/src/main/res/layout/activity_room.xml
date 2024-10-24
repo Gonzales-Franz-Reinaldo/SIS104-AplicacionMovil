@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".basedatos.RoomActivity">
+
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ROOM" />
+
+    <EditText
+        android:id="@+id/editTextId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ID"
+        android:contentDescription="ID"
+        android:inputType="text"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre"
+        android:contentDescription="Nombre"
+        android:inputType="text"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Descripcion"
+        android:contentDescription="Descripcion"
+        android:inputType="text"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextLatitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Latitud"
+        android:contentDescription="Latitud"
+        android:inputType="text"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/editTextLongitud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Longitud"
+        android:contentDescription="Longitud"
+        android:inputType="text"
+        android:text="" />
+
+    <Button
+        android:id="@+id/buttonGuardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GUARDAR" />
+
+    <Button
+        android:id="@+id/buttonListar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LISTAR" />
+
+    <Button
+        android:id="@+id/buttonActualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ACTUALIZAR" />
+
+    <Button
+        android:id="@+id/buttonBorrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ELIMINAR" />
+
+    <Button
+        android:id="@+id/buttonMapa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VER MAPA" />
+
+    <Button
+        android:id="@+id/buttonVerMapas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VER TODAS LAS MAPAS" />
+
+    <TextView
+        android:id="@+id/textViewResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+</LinearLayout>
