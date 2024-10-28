@@ -19,6 +19,7 @@ import com.example.proyectokotlin.ejercicios.EjerciciosActivity
 import com.example.proyectokotlin.ejercicios.PersonActivity
 import com.example.proyectokotlin.examen.ExamenActivity
 import com.example.proyectokotlin.graficos.GraficosActivity
+import com.example.proyectokotlin.wsSIS104borrar.WS_SIS104BorrarActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -41,6 +42,8 @@ class MainActivity : AppCompatActivity() {
         val buttonPerson = findViewById<Button>(R.id.buttonPerson)
         val buttonBdRoom = findViewById<Button>(R.id.buttonBdRoom)
         val buttonWebService= findViewById<Button>(R.id.buttonWebService)
+
+        val buttonWSsis104Borrar = findViewById<Button>(R.id.buttonWSsis104Borrar)
 
 
 
@@ -74,6 +77,11 @@ class MainActivity : AppCompatActivity() {
 
         buttonWebService.setOnClickListener{
             val intent = Intent(this@MainActivity, WebServiceActivity::class.java)
+            startActivity(intent)
+        }
+
+        buttonWSsis104Borrar.setOnClickListener{
+            val intent = Intent(this@MainActivity, WS_SIS104BorrarActivity::class.java)
             startActivity(intent)
         }
 
