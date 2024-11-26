@@ -55,6 +55,12 @@
         android:text="WS SIS104 Borrar" />
 
     <Button
+        android:id="@+id/buttonRxBorrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RX BORRAR" />
+
+    <Button
         android:id="@+id/buttonSalir"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

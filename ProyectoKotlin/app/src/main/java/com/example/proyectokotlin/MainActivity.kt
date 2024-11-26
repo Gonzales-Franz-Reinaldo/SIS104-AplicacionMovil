@@ -10,6 +10,7 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.proyectokotlin.RxBorrar.RxBorrarActivity
 import com.example.proyectokotlin.WebService.WebServiceActivity
 import com.example.proyectokotlin.basedatos.BaseDatosActivity
 import com.example.proyectokotlin.basedatos.DBHelper
@@ -42,6 +43,7 @@ class MainActivity : AppCompatActivity() {
         val buttonPerson = findViewById<Button>(R.id.buttonPerson)
         val buttonBdRoom = findViewById<Button>(R.id.buttonBdRoom)
         val buttonWebService= findViewById<Button>(R.id.buttonWebService)
+        val buttonRxBorrar = findViewById<Button>(R.id.buttonRxBorrar)
 
         val buttonWSsis104Borrar = findViewById<Button>(R.id.buttonWSsis104Borrar)
 
@@ -82,6 +84,11 @@ class MainActivity : AppCompatActivity() {
 
         buttonWSsis104Borrar.setOnClickListener{
             val intent = Intent(this@MainActivity, WS_SIS104BorrarActivity::class.java)
+            startActivity(intent)
+        }
+
+        buttonRxBorrar.setOnClickListener{
+            val intent = Intent(this@MainActivity, RxBorrarActivity::class.java)
             startActivity(intent)
         }
 
