@@ -1,7 +1,7 @@
 // main.dart
 
 import 'package:flutter/material.dart';
-import 'complejos.dart';  
+import 'complejos.dart';
 
 void main() {
   runApp(const Principal());
@@ -143,7 +143,8 @@ class _CalculadoraComplejosState extends State<CalculadoraComplejos> {
               onPressed: _calcular,
               child: const Text("Calcular"),
               style: ElevatedButton.styleFrom(
-                padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+                padding:
+                    const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
               ),
             ),
             const SizedBox(height: 16),
